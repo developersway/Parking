@@ -3,5 +3,6 @@ package org.example.Enum;
 public enum VehicleSizeEnum {
     HEAVY,
     LIGHT,
-    HUGE
+    HUGE,
+    SMALL
 }
