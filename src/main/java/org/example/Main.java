@@ -25,6 +25,8 @@ public class Main {
 
         parkingService.releaseParking(1,1);
 
+        parkingService.releaseParking(34,1);
+
         parkingService.bookParking(new ParkingDto(2,1,1, VehicleSizeEnum.HEAVY));
 
         parkingService.releaseParking(2,1);
